@@ -9,7 +9,6 @@ public class Main {
 		HrDepartment h = new HrDepartment();
 		TechDepartment t = new TechDepartment();
 		AdminDepartment a = new AdminDepartment();
-		
 
 		// displaying functionalities of Admin Department
 		System.out.println(getWelcomeString(a.departmentName()));
@@ -39,9 +38,8 @@ public class Main {
 		// call method of superclass
 		System.out.println(t.isTodayAHoliday());
 
-		
 	}
-	
+
 	static String getWelcomeString(String departmentName) {
 		return "Welcome to " + departmentName;
 	}
